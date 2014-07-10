@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "filter-contrast"
   ],
   "css-filter-contrast": {
     "type": "git",
