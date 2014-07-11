@@ -26,7 +26,7 @@ or download the css on github and include in your project.
 .contrast4 { filter: contrast(150%); }
 .contrast5 { filter: contrast(200%); }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .contrast0-ns { filter: contrast(0); }
   .contrast1-ns { filter: contrast(50%); }
   .contrast2-ns { filter: contrast(75%); }
@@ -36,7 +36,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .contrast0-m { filter: contrast(0); }
   .contrast1-m { filter: contrast(50%); }
   .contrast2-m { filter: contrast(75%); }
@@ -46,7 +46,7 @@ or download the css on github and include in your project.
 
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .contrast0-l { filter: contrast(0); }
   .contrast1-l { filter: contrast(50%); }
   .contrast2-l { filter: contrast(75%); }
