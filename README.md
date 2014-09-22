@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-filter-contrast)
 ## File Size
 
 1.1K filter-contrast.css
-948B filter-contrast.min.css
+948B filter-contrast.min.css 
+207B minified and gzipped
 
 ## The Code
 ```
