@@ -1,5 +1,6 @@
 {
   "name": "css-filter-contrast",
+  "style": "filter-contrast.css",
   "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-filter-contrast",
   "description": "Css module of single purpose classes for filter contrast",
