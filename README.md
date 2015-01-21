@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-filter-contrast)
 ## File Size
 
 1.1K filter-contrast.css
-948B filter-contrast.min.css 
+948B filter-contrast.min.css
 207B minified and gzipped
 
 ## The Code
@@ -72,7 +72,7 @@ View on [npm](https://www.npmjs.org/package/css-filter-contrast)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
