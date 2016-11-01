@@ -1,10 +1,10 @@
-# css-filter-contrast 0.0.7
+# css-filter-contrast 1.0.6
 
 Css module of single purpose classes for filter contrast
 
 #### Stats
 
-241 | 24 | 24
+281 | 24 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -16,15 +16,25 @@ bytes | selectors | declarations
 npm install --save-dev css-filter-contrast
 ```
 
+Learn more about using css installed with npm:
+* https://webpack.github.io/docs/stylesheets.html
+* https://github.com/defunctzombie/npm-css
+
 #### With Git
 
+http:
 ```
 git clone https://github.com/tachyons-css/css-filter-contrast
 ```
 
+ssh:
+```
+git clone git@github.com:tachyons-css/css-filter-contrast.git
+```
+
 ## Usage
 
-#### Using with [PostCSS](https://github.com/postcss/postcss)
+#### Using with [Postcss](https://github.com/postcss/postcss)
 
 Import the css module
 
@@ -32,16 +42,24 @@ Import the css module
 @import "css-filter-contrast";
 ```
 
-Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+Then process the css using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
 
 ```sh
 $ npm i -g tachyons-cli
-$ tachyons-cli path/to/css-file.css > dist/t.css
+$ tachyons path/to/css-file.css > dist/t.css
 ```
 
-#### Using the CSS
+#### Using the css
 
-The built CSS is located in the `css` directory. It contains an unminified and minified version.
+##### CDN
+The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
+
+```
+<link rel="stylesheet" href="http://unpkg.com/css-filter-contrast@1.0.6/css/css-filter-contrast.min.css" />
+```
+
+##### Locally
+The built css is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
 ```html
@@ -50,44 +68,44 @@ You can either cut and paste that css or link to it directly in your html.
 
 #### Development
 
-The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+The source css files can be found in the `src` directory.
+Running `$ npm start` will process the source css and place the built css in the `css` directory.
 
-## The CSS
+## The css
 
 ```css
 /*
    FILTER CONTRAST
 */
-.contrast0 { filter: contrast( 0 ); }
-.contrast1 { filter: contrast( 50% ); }
-.contrast2 { filter: contrast( 75% ); }
-.contrast3 { filter: contrast( 100% ); }
-.contrast4 { filter: contrast( 150% ); }
-.contrast5 { filter: contrast( 200% ); }
+.contrast0 { -webkit-filter: contrast( 0 ); filter: contrast( 0 ); }
+.contrast1 { -webkit-filter: contrast( 50% ); filter: contrast( 50% ); }
+.contrast2 { -webkit-filter: contrast( 75% ); filter: contrast( 75% ); }
+.contrast3 { -webkit-filter: contrast( 100% ); filter: contrast( 100% ); }
+.contrast4 { -webkit-filter: contrast( 150% ); filter: contrast( 150% ); }
+.contrast5 { -webkit-filter: contrast( 200% ); filter: contrast( 200% ); }
 @media screen and (min-width: 48em) {
- .contrast0-ns { filter: contrast( 0 ); }
- .contrast1-ns { filter: contrast( 50% ); }
- .contrast2-ns { filter: contrast( 75% ); }
- .contrast3-ns { filter: contrast( 100% ); }
- .contrast4-ns { filter: contrast( 150% ); }
- .contrast5-ns { filter: contrast( 200% ); }
+ .contrast0-ns { -webkit-filter: contrast( 0 ); filter: contrast( 0 ); }
+ .contrast1-ns { -webkit-filter: contrast( 50% ); filter: contrast( 50% ); }
+ .contrast2-ns { -webkit-filter: contrast( 75% ); filter: contrast( 75% ); }
+ .contrast3-ns { -webkit-filter: contrast( 100% ); filter: contrast( 100% ); }
+ .contrast4-ns { -webkit-filter: contrast( 150% ); filter: contrast( 150% ); }
+ .contrast5-ns { -webkit-filter: contrast( 200% ); filter: contrast( 200% ); }
 }
 @media screen and (min-width:48em) and (max-width: 64em) {
- .contrast0-m { filter: contrast( 0 ); }
- .contrast1-m { filter: contrast( 50% ); }
- .contrast2-m { filter: contrast( 75% ); }
- .contrast3-m { filter: contrast( 100% ); }
- .contrast4-m { filter: contrast( 150% ); }
- .contrast5-m { filter: contrast( 200% ); }
+ .contrast0-m { -webkit-filter: contrast( 0 ); filter: contrast( 0 ); }
+ .contrast1-m { -webkit-filter: contrast( 50% ); filter: contrast( 50% ); }
+ .contrast2-m { -webkit-filter: contrast( 75% ); filter: contrast( 75% ); }
+ .contrast3-m { -webkit-filter: contrast( 100% ); filter: contrast( 100% ); }
+ .contrast4-m { -webkit-filter: contrast( 150% ); filter: contrast( 150% ); }
+ .contrast5-m { -webkit-filter: contrast( 200% ); filter: contrast( 200% ); }
 }
 @media screen and (min-width: 64em) {
- .contrast0-l { filter: contrast( 0 ); }
- .contrast1-l { filter: contrast( 50% ); }
- .contrast2-l { filter: contrast( 75% ); }
- .contrast3-l { filter: contrast( 100% ); }
- .contrast4-l { filter: contrast( 150% ); }
- .contrast5-l { filter: contrast( 200% ); }
+ .contrast0-l { -webkit-filter: contrast( 0 ); filter: contrast( 0 ); }
+ .contrast1-l { -webkit-filter: contrast( 50% ); filter: contrast( 50% ); }
+ .contrast2-l { -webkit-filter: contrast( 75% ); filter: contrast( 75% ); }
+ .contrast3-l { -webkit-filter: contrast( 100% ); filter: contrast( 100% ); }
+ .contrast4-l { -webkit-filter: contrast( 150% ); filter: contrast( 150% ); }
+ .contrast5-l { -webkit-filter: contrast( 200% ); filter: contrast( 200% ); }
 }
 ```
 
@@ -107,3 +125,4 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## License
 
 ISC
+
