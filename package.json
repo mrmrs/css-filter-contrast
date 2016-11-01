@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.4"
+    "tachyons-cli": "^1.0.8"
   },
   "scripts": {
     "start": "tachyons src/css-filter-contrast.css > css/css-filter-contrast.css && tachyons src/css-filter-contrast.css --minify > css/css-filter-contrast.min.css && tachyons src/css-filter-contrast.css --generate-docs --package=../../package.json > readme.md"
