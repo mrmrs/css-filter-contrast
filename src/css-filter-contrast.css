@@ -10,12 +10,12 @@
 .contrast5 { filter: contrast(200%); }
 
 @media screen and (min-width: 48em) {
-  .contrast0-ns { filter: contrast(0); }
-  .contrast1-ns { filter: contrast(50%); }
-  .contrast2-ns { filter: contrast(75%); }
-  .contrast3-ns { filter: contrast(100%); }
-  .contrast4-ns { filter: contrast(150%); }
-  .contrast5-ns { filter: contrast(200%); }
+  .contrast0-s { filter: contrast(0); }
+  .contrast1-s { filter: contrast(50%); }
+  .contrast2-s { filter: contrast(75%); }
+  .contrast3-s { filter: contrast(100%); }
+  .contrast4-s { filter: contrast(150%); }
+  .contrast5-s { filter: contrast(200%); }
 
 }
 
