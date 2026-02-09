@@ -9,7 +9,7 @@
 .contrast4 { filter: contrast(150%); }
 .contrast5 { filter: contrast(200%); }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .contrast0-s { filter: contrast(0); }
   .contrast1-s { filter: contrast(50%); }
   .contrast2-s { filter: contrast(75%); }
@@ -19,7 +19,7 @@
 
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .contrast0-m { filter: contrast(0); }
   .contrast1-m { filter: contrast(50%); }
   .contrast2-m { filter: contrast(75%); }
@@ -29,7 +29,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .contrast0-l { filter: contrast(0); }
   .contrast1-l { filter: contrast(50%); }
   .contrast2-l { filter: contrast(75%); }
