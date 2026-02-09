@@ -1,40 +1,101 @@
-/*
-   FILTER CONTRAST
-*/
-
-.contrast0 { filter: contrast(0); }
-.contrast1 { filter: contrast(50%); }
-.contrast2 { filter: contrast(75%); }
-.contrast3 { filter: contrast(100%); }
-.contrast4 { filter: contrast(150%); }
-.contrast5 { filter: contrast(200%); }
-
-@media screen and (min-width: 48em) {
-  .contrast0-ns { filter: contrast(0); }
-  .contrast1-ns { filter: contrast(50%); }
-  .contrast2-ns { filter: contrast(75%); }
-  .contrast3-ns { filter: contrast(100%); }
-  .contrast4-ns { filter: contrast(150%); }
-  .contrast5-ns { filter: contrast(200%); }
-
+.contrast0 {
+  filter: contrast(0);
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
-  .contrast0-m { filter: contrast(0); }
-  .contrast1-m { filter: contrast(50%); }
-  .contrast2-m { filter: contrast(75%); }
-  .contrast3-m { filter: contrast(100%); }
-  .contrast4-m { filter: contrast(150%); }
-  .contrast5-m { filter: contrast(200%); }
-
+.contrast1 {
+  filter: contrast(50%);
 }
 
-@media screen and (min-width: 64em) {
-  .contrast0-l { filter: contrast(0); }
-  .contrast1-l { filter: contrast(50%); }
-  .contrast2-l { filter: contrast(75%); }
-  .contrast3-l { filter: contrast(100%); }
-  .contrast4-l { filter: contrast(150%); }
-  .contrast5-l { filter: contrast(200%); }
+.contrast2 {
+  filter: contrast(75%);
 }
 
+.contrast3 {
+  filter: contrast();
+}
+
+.contrast4 {
+  filter: contrast(150%);
+}
+
+.contrast5 {
+  filter: contrast(200%);
+}
+
+@media screen and (width >= 32em) {
+  .contrast0-s {
+    filter: contrast(0);
+  }
+
+  .contrast1-s {
+    filter: contrast(50%);
+  }
+
+  .contrast2-s {
+    filter: contrast(75%);
+  }
+
+  .contrast3-s {
+    filter: contrast();
+  }
+
+  .contrast4-s {
+    filter: contrast(150%);
+  }
+
+  .contrast5-s {
+    filter: contrast(200%);
+  }
+}
+
+@media screen and (width >= 48em) {
+  .contrast0-m {
+    filter: contrast(0);
+  }
+
+  .contrast1-m {
+    filter: contrast(50%);
+  }
+
+  .contrast2-m {
+    filter: contrast(75%);
+  }
+
+  .contrast3-m {
+    filter: contrast();
+  }
+
+  .contrast4-m {
+    filter: contrast(150%);
+  }
+
+  .contrast5-m {
+    filter: contrast(200%);
+  }
+}
+
+@media screen and (width >= 96em) {
+  .contrast0-l {
+    filter: contrast(0);
+  }
+
+  .contrast1-l {
+    filter: contrast(50%);
+  }
+
+  .contrast2-l {
+    filter: contrast(75%);
+  }
+
+  .contrast3-l {
+    filter: contrast();
+  }
+
+  .contrast4-l {
+    filter: contrast(150%);
+  }
+
+  .contrast5-l {
+    filter: contrast(200%);
+  }
+}
